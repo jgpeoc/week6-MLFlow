@@ -9,7 +9,8 @@ import mlflow
 import mlflow.keras
 
 # Add mlflow logging
-mlflow.set_tracking_uri('.')
+#mlflow.set_tracking_uri('.')
+mlflow.autolog()
 
 input_dir = './data/images/'
 target_dir = './data/annotations/trimaps/'
