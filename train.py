@@ -12,7 +12,7 @@ import mlflow.keras
 mlflow.set_tracking_uri('.')
 
 input_dir = './data/images/'
-target_dir = './data/annotations/'
+target_dir = './data/annotations/trimaps/'
 img_size = (160, 160)
 num_classes = 3
 batch_size = 32
