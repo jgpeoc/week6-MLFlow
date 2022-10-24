@@ -9,7 +9,7 @@ from icrawler.builtin import GoogleImageCrawler
 class DeepLabModel(object):
     """Class to load deeplab model and run inference."""
 
-    def __init__(self, triton_url='triton:8002'):
+    def __init__(self, triton_url='triton:8000'):
         self.input_name = 'Input'
         self.output_name = 'Output'
         self.model_name = 'pet-bokeh'
